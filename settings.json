@@ -1,0 +1,128 @@
+{
+  "editor.linkedEditing": true,
+  "files.autoSave": "onFocusChange",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.arrowParens": "avoid",
+  "[csharp]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.renderWhitespace": "all",
+  "tabnine.experimentalAutoImports": true,
+  "editor.wordWrap": "on",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.parameterHints": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.enablePreview": false,
+  "beautify.config": "",
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html"]
+  },
+  "beautify.ignore": "",
+  "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "githubPullRequests.pushBranch": "always",
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.settings.applyToAllProfiles": [
+    "color-highlight.markerType",
+    "editor.tabSize"
+  ],
+  "editor.tabSize": 2,
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "eslint.run": "onSave",
+  "editor.fontFamily": "JetBrains Mono, Ubuntu Mono, Inconsolata, Menlo,monospace,Hack, Fira Code, JetBrains Mono, Source Code Pro, Monaco, Roboto Mono, Cascadia Code, San Francisco, Consolas, Courier New",
+  "editor.fontLigatures": true,
+  "editor.fontVariations": false,
+  "terminal.integrated.scrollback": 10000,
+  "editor.maxTokenizationLineLength": 200000,
+  "terminal.integrated.fontFamily": "Jetbrains mono",
+  "terminal.integrated.fontWeight": "normal",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 1.6,
+  "editor.letterSpacing": 0.2,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.letterSpacing": 1,
+
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "better-comments.tags": [
+    {
+      "tag": "TODO",
+      "color": "#FF9D00", // Light Orange text
+      "strikethrough": false,
+      "backgroundColor": "#2A2A2A", // Darker background
+      "bold": true
+    },
+    {
+      "tag": "FIXME",
+      "color": "#FF5733", // Bright Red text
+      "strikethrough": false,
+      "backgroundColor": "#2A2A2A", // Dark background
+      "bold": true
+    },
+    {
+      "tag": "NOTE",
+      "color": "#A1E82A", // Light Green text
+      "strikethrough": false,
+      "backgroundColor": "#333333", // Dark background
+      "bold": true
+    },
+    {
+      "tag": "BUG",
+      "color": "#FF0033", // Bright Red text
+      "strikethrough": false,
+      "backgroundColor": "#2C2C2C", // Very dark background
+      "bold": true
+    },
+    {
+      "tag": "IMPORTANT",
+      "color": "#FF00FF", // Bright Magenta text
+      "strikethrough": false,
+      "backgroundColor": "#2A2A2A", // Dark background
+      "bold": true
+    }
+  ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic bold",
+          "fontSize": "24px"
+        }
+      }
+    ]
+  },
+  "workbench.colorTheme": "One Monokai",
+  "workbench.colorCustomizations": {},
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.centeredLayoutFixedWidth": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cwd": "${fileDirname}",
+  "workbench.activityBar.location": "bottom"
+}
